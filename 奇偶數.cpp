@@ -7,7 +7,7 @@ string odd_or_even(const vector<int> &arr)
     int total = 0;
     
   for(auto i : arr){
-    total += *arr[i];
+    total += i;
 }
     if (total % 2 ==0 ){
       return "even";
