@@ -3,7 +3,7 @@
 using namespace std;
 string odd_or_even(const vector<int> &arr)
 {
-    ; // your code here
+     // your code here
     int total = 0;
     
   for(auto i : arr){
